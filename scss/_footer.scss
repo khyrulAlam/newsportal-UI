@@ -1,0 +1,40 @@
+
+footer{
+  padding-top: 30px;
+  background: #282828;
+  .top-footer{
+    a{
+      color: #b3b3b3;
+      font-family: $banglafont2;
+      font-weight: 600;
+      letter-spacing: 1px;
+      &:hover{
+        color: #FF5722;
+      }
+    }
+    @media only screen and (max-width: 360px) {
+      a{
+        font-size: 13px;
+      }
+    }
+  }
+  .small-footer{
+    background: #000;
+    padding: 7px 0px;
+    p{
+      color: #d2d2d2;
+      font-family: $banglafont;
+      font-size: 12px;
+      margin: 0px;
+    }
+    .copnyright{
+      margin-top: 20px;
+      p{
+        font-family: $banglafont2;
+        font-size: 14px;
+        font-weight: 600;
+        color: #636363;
+      }
+    }
+  }
+}

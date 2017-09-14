@@ -1,0 +1,71 @@
+
+  .thumwithside{
+      background-image: url(../img/stardust.png);
+      background-repeat: repeat-x;
+      background-attachment: fixed;
+      padding: 30px 0px;
+      .card-body{
+        h3{
+          line-height: 14px;
+          height: 40px;
+          overflow: hidden;
+          padding-left: 3px;
+          a{
+            font-family: $banglafont2;
+            font-weight: 600;
+            font-size: 16px;
+            text-shadow: none;
+            color: $tred;
+            border-left: 0px solid #fe7171;
+            &:hover{
+              color: $thover;
+
+            }
+          }
+        }
+        p{
+          height: 65px;
+          overflow: hidden;
+        }
+
+      }
+      .facetoface{
+        a{
+          &:hover{
+            text-decoration: none;
+          }
+        }
+        h3{
+          background: #ffc107;
+          padding: 8px 15px;
+          font-weight: 600;
+          color: #FFF;
+          margin: 0px;
+          text-align: center;
+          border-radius: 4px 4px 0px 0px;
+        }
+        .card{
+          height: 578px;
+          overflow: hidden;
+          border-radius: 0px;
+          .card-img-top{
+            border-radius: 0px;
+          }
+          .card-body{
+            p{
+              height: 100%;
+              color: #7b7b79;
+            }
+          }
+        }
+        blockquote{
+          i{
+            color: $tred;
+          }
+          font-family: $banglafont2;
+          font-size: 16px;
+          font-weight: 600;
+          color: #333;
+        }
+      }
+  }

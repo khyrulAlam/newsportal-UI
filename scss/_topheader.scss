@@ -1,0 +1,115 @@
+.top-header{
+  background: $light-bg;
+  margin-bottom: 30px;
+  .top-icon{
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(60, 60, 60, 0.02);
+    .nav li a{
+      font-size: 12px;
+      color: #b5b5b5;
+      margin-right: 15px;
+      border-bottom: 1px solid red;
+      text-decoration: none;
+      @media only screen and (max-width: 360px) {
+        font-size: 12px;
+        margin-right: 5px;
+      }
+    }
+    .top-social-link li a{
+      border-bottom: none;
+      text-decoration: none;
+    }
+  }
+
+  .top-logo{
+    .Top-time-date{
+      margin-top: 13px;
+      font-family: $banglafont2;
+
+      #day{
+        font-size: 30px;
+        font-weight: 600;
+        color: #34495e;
+        text-shadow: 0px 3px 3px #bbbbbb;
+      }
+
+      #date{
+        font-weight: 600;
+        color: #afaeae;
+        text-shadow: 0px 0px 0px;
+        font-size: 12px;
+      }
+
+      @media only screen and (max-width: 360px) {
+        margin-top: 5px;
+        text-align: center;
+        #day{
+          font-size: 22px;
+        }
+      }
+
+    }
+    @media only screen and (max-width: 360px) {
+      img{width: 220px}
+    }
+  }
+  .top-menu{
+    background: $menubg;
+    box-shadow: 0px 9px 16px -2px rgba(0, 0, 0, 0.09);
+    nav{
+      border-left: 1px solid rgba(246, 251, 252, 0.22);
+      padding-right: 0px;
+      .nav-link{
+        border-left: 1px solid rgba(246, 251, 252, 0.12);
+        padding: 5px 20px;
+        color: #FFF;
+        font-weight: 600;
+        &:hover{
+          color: $tred;
+        }
+      }
+      form .form-control{
+        border-radius: 0px;
+        background: transparent;
+        border: 1px solid rgba(253, 173, 176, 0.12);
+        border-right: 0px;
+      }
+      form .btn{
+        background: rgb(234, 109, 100);
+        border-radius: 0px 4px 4px 0px;
+        border: 1px solid #ea6d64;
+        color: #ffffff;
+        border-left: 0px;
+        cursor: pointer;
+      }
+    }
+    a{
+      color: #FFF;
+      transition: .8s all;
+        font-family: $banglafont2;
+      &:hover{
+        color: #868e96;
+      }
+    }
+
+    @media only screen and (max-width: 360px) {
+      nav{
+        border-left: none;
+        .nav-link{
+          text-align: center;;
+          border-left: 0px solid rgba(246, 251, 252, 0.12);
+        }
+      }
+      .navbar-light .navbar-toggler{
+        background: #FFF;
+        border-radius: 2px;
+      }
+      form .form-control{
+        width: 85%;
+      }
+    }
+
+  }
+
+}

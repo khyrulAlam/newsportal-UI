@@ -1,0 +1,135 @@
+
+  .fullNews{
+    margin-bottom: 25px;
+    .thumbnail{
+      background: #ffffff;
+      box-shadow: 0px 4px 20px 8px rgba(0, 0, 0, 0.06);
+      border-radius: 4px;
+      padding: 30px 20px;
+      h3{
+        font-family: $banglafont;
+        font-weight: 600;
+        color: $thover;
+        margin: 0px;
+      }
+      span{
+        font-family: $banglafont2;
+        font-size: 12px;
+        color: #aaa;
+      }
+      img{
+        margin-top: 15px;
+      }
+      blockquote{
+        background: #eee;
+        margin: 25px;
+        padding: 20px;
+        border-radius: 2px;
+        font-family: $banglafont2;
+        font-weight: 600;
+        i{
+          color: $tred;
+        }
+      }
+      .newstext{
+        font-family: $banglafont;
+        line-height: 35px;
+        color: $thover;
+      }
+    }
+
+    .theamtab{
+      min-height: 526px;
+      background: #ffffff;
+      box-shadow: 0px 4px 20px 8px rgba(0, 0, 0, 0.06);
+      border-radius: 4px;
+      .nav-tabs{
+        border-radius: 4px 4px 0px 0px;;
+        background: #dedede;
+        font-family: $banglafont;
+        font-weight: 600;
+        .nav-link{
+          border: 1px solid transparent;
+          border-top-left-radius: .25rem;
+          border-top-right-radius: 0rem;
+          color: #333;
+        }
+        .nav-link.active{
+          color:$tred;
+        }
+      }
+      ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 20px 15px;
+        li{
+          margin-bottom: 10px;
+          border-bottom: 1px solid rgba(232, 232, 232, 0.58);
+          padding: 6px 0px;
+        }
+        a{
+          color: #333;
+          font-family: $banglafont;
+          font-size: 15px;
+          &:hover{
+            text-decoration: none;
+            color: #FF9800;
+          }
+        }
+      }
+    }
+
+    .facetoface{
+      a{
+        &:hover{
+          text-decoration: none;
+        }
+      }
+      h3{
+        background: #ffc107;
+        padding: 8px 15px;
+        font-weight: 600;
+        color: #FFF;
+        margin: 0px;
+        text-align: center;
+        border-radius: 4px 4px 0px 0px;
+      }
+      .card{
+        height: 578px;
+        overflow: hidden;
+        border-radius: 0px;
+        .card-img-top{
+          border-radius: 0px;
+        }
+        .card-body{
+          p{
+            height: 100%;
+            color: #7b7b79;
+          }
+        }
+      }
+      blockquote{
+        i{
+          color: $tred;
+        }
+        font-family: $banglafont2;
+        font-size: 16px;
+        font-weight: 600;
+        color: #333;
+      }
+    }
+
+    .releted-product{
+      margin-top: 30px;
+      .card-body{
+        padding: 1rem;
+        h3{
+          line-height: 13px;
+          a{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+  }

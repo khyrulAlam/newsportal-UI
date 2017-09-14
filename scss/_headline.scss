@@ -1,0 +1,27 @@
+
+.headline{
+  .bigbox{
+    .card{
+      min-height: 515px;
+      overflow: hidden;
+    }
+  }
+  .smbox{
+    .card{
+      min-height: 238px;
+      overflow: hidden;
+      h3{
+        a{
+          font-size: 16px;
+        }
+        height: 34px;
+        overflow: hidden;
+        padding: 2px 2px;
+        margin-bottom: 4px;
+      }
+      .card-body{
+        padding-top: 20px;
+      }
+    }
+  }
+}

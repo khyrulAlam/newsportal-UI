@@ -1,0 +1,31 @@
+
+  .thumview2{
+    padding: 30px 0px;
+    background: $light-bg;
+    .card-body{
+      h3{
+        line-height: 14px;
+        height: 40px;
+        overflow: hidden;
+        padding-left: 3px;
+        a{
+          font-family: $banglafont2;
+          font-weight: 600;
+          font-size: 16px;
+          text-shadow: none;
+          color: $tred;
+          border-left: 0px solid #fe7171;
+          &:hover{
+            color: $thover;
+
+          }
+        }
+      }
+      p{
+        height: 65px;
+        overflow: hidden;
+        font-family: $banglafont;
+      }
+
+    }
+  }

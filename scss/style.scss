@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@font-face {
+  font-family: 'SolaimanLipi';
+  src: url('../fonts/SolaimanLipi.ttf');
+}
+@font-face {
+  font-family: 'kalpurush';
+  src: url('../fonts/kalpurush.ttf');
+}
+%grd-background{
+  background: #fbdade;
+  background: -webkit-linear-gradient(to right, #ff8d8f, #fbdade);
+  background: linear-gradient(to right, #ff8d8f, #fbdade)
+};
+$menubg:#4f5963;
+$light-bg: rgba(23, 162, 184, 0.04);
+$tred: #fd3030;
+$thover: #34495e;
+$banglafont: 'SolaimanLipi';
+$banglafont2: 'kalpurush';
+
+@import "topheader";
+
+main{
+
+  .card{
+    border: none;
+    box-shadow: 0px 4px 20px 8px rgba(0, 0, 0, 0.06);
+    margin-bottom: 24px;
+  }
+  .card-body{
+    p{
+      font-family: $banglafont;
+      font-size: 14px;
+      text-shadow: 0px 0px 0px;
+    }
+    h3{
+      a{
+        font-family: $banglafont2;
+        font-weight: 600;
+        color: $tred;
+        font-size: 22px;
+        text-shadow: none;
+        border-left: 0px solid #fe7171;
+        padding-left: 0px;
+        &:hover{
+          text-decoration: none;
+          color: $thover;
+        }
+      }
+    }
+    a{
+      font-family: $banglafont2;
+      font-weight: 600;
+      font-size: 13px;
+      text-shadow: 0px 5px 17px #d2cece;
+      color: #bbb8b8;
+      border-left: 3px solid #ffc107;
+      padding-left: 8px;
+    }
+  }
+  .section-head{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-left: 3px solid #ffc107;
+    padding-left: 10px;
+    font-family: $banglafont;
+    #hbutton,#hbutton2,#hbutton3,#hbutton4{
+      font-size: 14px;
+      color: #ccc;
+    }
+    a{
+    font-family: $banglafont;
+    color: #333;
+    transition: .4s all;
+      &:hover{
+        color: #ffc107;
+        text-decoration: none;
+      }
+    }
+  }
+
+
+//Headline section
+@import "headline";
+//Top Of The Twon section
+@import "topofthetown";
+//thumbview With Sidebar style
+@import "thumwithside";
+//Thumbview one
+@import "thumview1";
+//Thumview2
+@import "thumview2";
+//Details Page
+@import "fullNews";
+//Category Page
+@import "category-section";
+
+}//end main section
+
+
+
+//Footer
+@import "footer";

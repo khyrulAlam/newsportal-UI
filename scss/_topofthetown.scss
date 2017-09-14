@@ -1,0 +1,70 @@
+
+.topofthetown{
+  background: $light-bg;
+  padding: 35px 0px;
+  .bigbox{
+    .card{
+      height: 526px;
+      overflow: hidden;
+    }
+  }
+  .smbox{
+    .card{
+      height: 251px;
+      overflow: hidden;
+      h3{
+        a{
+          font-size: 16px;
+        }
+        height: 34px;
+        overflow: hidden;
+        padding: 2px 2px;
+        margin-bottom: 4px;
+      }
+      .card-body{
+        padding: 1.5rem;
+        padding-top: 20px;
+      }
+    }
+  }
+  .theamtab{
+    min-height: 526px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    .nav-tabs{
+      border-radius: 4px 4px 0px 0px;;
+      background: #dedede;
+      font-family: $banglafont;
+      font-weight: 600;
+      .nav-link{
+        border: 1px solid transparent;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: 0rem;
+        color: #333;
+      }
+      .nav-link.active{
+        color:$tred;
+      }
+    }
+    ul{
+      list-style-type: none;
+      margin: 0px;
+      padding: 20px 15px;
+      li{
+        margin-bottom: 10px;
+        border-bottom: 1px solid rgba(232, 232, 232, 0.58);
+        padding: 6px 0px;
+      }
+      a{
+        color: #333;
+        font-family: $banglafont;
+        font-size: 15px;
+        &:hover{
+          text-decoration: none;
+          color: #FF9800;
+        }
+      }
+    }
+  }
+}
